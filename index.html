@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTA GEEK</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--     FILTRO GEEKS DESPLEGABLE SOLO MOBILE -->
+    <form  action="" class="cont_filter_hero solo_mobile">
+        <div class="heading_txt">
+            Filtros <span class="close_filter_m fas fa-times"></span>
+        </div>
+        <div class="tags_filter">
+            <div class="tag_f">
+                Informatica <span class="fas fa-times"></span>
+            </div>
+            <div class="tag_f">
+                Virus <span class="fas fa-times"></span>
+            </div>
+            <div class="tag_f">
+                Presencial <span class="fas fa-times"></span>
+            </div>
+        </div>
+        <div class="campo_filtro">
+            <label for="">Escribe una palabra clave</label>
+            <input type="text" value="">
+        </div>
+        <div class="campo_filtro">
+            <label for="">Especialidad</label>
+            <input type="text" value="">
+        </div>
+        <div class="campo_filtro">
+            <label for="">Modalidad</label>
+            <select name="" id="">
+                <option value="" selected disabled> Seleccionar</option>
+                <option value="">Presencial</option>
+                <option value="">Virtual</option>
+            </select>
+        </div>
+        <div class="campo_filtro">
+            <label for="">Ubicación</label>
+            <select name="" id="">
+                <option value="" selected disabled> Seleccionar</option>
+                <option value="">Lima, Miraflores</option>
+                <option value="">Lima, Miraflores</option>
+                <option value="">Lima, Miraflores</option>
+                <option value="">Lima, Miraflores</option>
+                <option value="">Lima, Miraflores</option>
+                <option value="">Lima, Miraflores</option>
+            </select>
+        </div>
+        <button type="submit"> <i class="fas fa-search"></i> </button>
+        <div class="cont_btns_filter_mobile">
+            <button class="btn_outline" type="submit">Cancelar</button>
+            <button class="btn_fill" type="submit">Aplicar</button>
+        </div>
+    </form>
+
+<!--     ---------------------- -->
+
+    <header>
+        <div class="center">
+            <div class="header">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/diseno/logo_consulta_geeks.svg" width="135" height="48" alt="">
+                    </a>
+                </h1>
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a href="sobre_nosotros.html">¿Quiénes Somos?</a>
+                        </li>
+                        <li>
+                            <a href="">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="nuestros_geeks.html">Nuestros Geeks</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <div class="navbar_buttons">
+                            <li>
+                                <a class="btn_outline" href="registro.html">Regístrate</a>
+                            </li>
+                            <li>
+                                <a class="btn_fill" href="iniciar_sesion.html">Iniciar Sesión</a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+                <a class="button_nav">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="spacer"></div>
+        <section class="s_hero">
+            <!-- Swiper -->
+        <div class="swiper homeHero_swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <img width="1440" height="768" src="images/diseno/01-home/s_home_1.jpg" alt="">
+                    </picture>
+                    <div class="center">
+                        <div class="cont_gendest_home">
+                            <div class="cont_col_desthome">
+                                <h2 data-swiper-parallax="-100">¿Problemas con tu computadora?</h2>
+                                <div data-swiper-parallax="-200" class="desc_home_hero">Suspendisse tincidunt quam eget justo feugiat sodales. Praesent fringilla tellus augue.</div>
+
+                                <div class="cont_mobile_home_filter">
+                                    <div class="filter_slide">
+                                        Busca tu Geeks
+                                    </div>
+                                    <button class="type_submit" type="submit"> <i class="fas fa-search"></i> </button>
+                                </div>
+
+                                <form  data-swiper-parallax="-300" action="" class="cont_filter_hero">
+                                    <div class="campo_filtro">
+                                        <label for="">Escribe una palabra clave</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Especialidad</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Modalidad</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Presencial</option>
+                                            <option value="">Virtual</option>
+                                        </select>
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Ubicación</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit"> <i class="fas fa-search"></i> </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <picture>
+                        <img width="1440" height="768" src="images/diseno/01-home/s_home_2.jpg" alt="">
+                    </picture>
+                    <div class="center">
+                        <div class="cont_gendest_home">
+                            <div class="cont_col_desthome">
+                                <h2 data-swiper-parallax="-100">¿Problemas con tu computadora?</h2>
+                                <div data-swiper-parallax="-200" class="desc_home_hero">Suspendisse tincidunt quam eget justo feugiat sodales. Praesent fringilla tellus augue.</div>
+
+                                <div class="cont_mobile_home_filter">
+                                    <div class="filter_slide">
+                                        Busca tu Geeks
+                                    </div>
+                                    <button class="type_submit" type="submit"> <i class="fas fa-search"></i> </button>
+                                </div>
+
+                                <form  data-swiper-parallax="-300" action="" class="cont_filter_hero">
+                                    <div class="campo_filtro">
+                                        <label for="">Escribe una palabra clave</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Especialidad</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Modalidad</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Presencial</option>
+                                            <option value="">Virtual</option>
+                                        </select>
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Ubicación</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit"> <i class="fas fa-search"></i> </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <picture>
+                        <img width="1440" height="768" src="images/diseno/01-home/s_home_3.jpg" alt="">
+                    </picture>
+                    <div class="center">
+                        <div class="cont_gendest_home">
+                            <div class="cont_col_desthome">
+                                <h2 data-swiper-parallax="-100">¿Problemas con tu computadora?</h2>
+                                <div data-swiper-parallax="-200" class="desc_home_hero">Suspendisse tincidunt quam eget justo feugiat sodales. Praesent fringilla tellus augue.</div>
+
+                                <div class="cont_mobile_home_filter">
+                                    <div class="filter_slide">
+                                        Busca tu Geeks
+                                    </div>
+                                    <button class="type_submit" type="submit"> <i class="fas fa-search"></i> </button>
+                                </div>
+                                
+                                <form  data-swiper-parallax="-300" action="" class="cont_filter_hero">
+                                    <div class="campo_filtro">
+                                        <label for="">Escribe una palabra clave</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Especialidad</label>
+                                        <input type="text" value="">
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Modalidad</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Presencial</option>
+                                            <option value="">Virtual</option>
+                                        </select>
+                                    </div>
+                                    <div class="campo_filtro">
+                                        <label for="">Ubicación</label>
+                                        <select name="" id="">
+                                            <option value="" selected disabled> Seleccionar</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                            <option value="">Lima, Miraflores</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit"> <i class="fas fa-search"></i> </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        </section>
+
+        <section class="s_como_funciona">
+            <div class="center">
+                <div class="cont_comofunciona">
+                    <div class="cont_tit_section">
+                        <h3 class="tit_section">¿Cómo funciona?</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper swiperComoFunciona">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="cont_card_funciona">
+                            <div class="number_cf">
+                                01
+                            </div>
+                            <h5 class="tit_cf">Publicar</h5>
+                            <div class="desc_cf">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima officiis necessitatibus voluptatum dolorum sunt?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cont_card_funciona">
+                            <div class="number_cf">
+                                02
+                            </div>
+                            <h5 class="tit_cf">Seleccionar</h5>
+                            <div class="desc_cf">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima officiis necessitatibus voluptatum dolorum sunt?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cont_card_funciona">
+                            <div class="number_cf">
+                                03
+                            </div>
+                            <h5 class="tit_cf">Empieza ahora</h5>
+                            <div class="desc_cf">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima officiis necessitatibus voluptatum dolorum sunt?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="cont_card_funciona">
+                            <div class="number_cf">
+                                04
+                            </div>
+                            <h5 class="tit_cf">Aceptar</h5>
+                            <div class="desc_cf">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima officiis necessitatibus voluptatum dolorum sunt?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="s_sobre_nosotros not_before">
+            <div class="center">
+                <div class="cont_sobre_nosotros">
+                    <picture>
+                        <img width="322" height="531" src="images/diseno/01-home/img_sobrenosotros.png" alt="">
+                    </picture>
+                    <div class="cont_tit2_s al_left">
+                        <h6>Sobre nosotros</h6>
+                        <h3>Solucionar problemas es nuestro objetivo</h3>
+                        <div class="desc_tit2">
+                            Somos una empresa que busca absolver sus consultas tecnológicas y problemas de hardware de manera inmediata: remota o presencialmente, para ello ponemos a su disposición un equipo humano que podrá brindarle el mejor servicio con el respaldo de nuestra empresa en el menor tiempo posible.
+                        </div>
+                        <a href="" class="btn_fill">Conoce más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_nuestros_geeks not_before">
+            <div class="center">
+                <div class="cont_nuestros_geeks">
+                    <div class="cont_tit2_s al_left">
+                        <h6>Nuestros geeks</h6>
+                        <h3>Elimina esa duda que te impide avanzar en tu trabajo</h3>
+                    </div>
+                    <div class="geeks_cards">
+
+                        <div class="card_geek">
+                            <div class="id_geek">
+                                <picture>
+                                    <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                </picture>
+                                <div class="cont_profile">
+                                    <div class="name">
+                                        Nombre Apellido
+                                    </div>
+                                    <div class="profile">
+                                        Técnico de PC
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="desc_geek">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt eget semper libero. Enim magna cras ac accumsan non.
+                            </div>
+                            <div class="rate_geek">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="card_geek">
+                            <div class="id_geek">
+                                <picture>
+                                    <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                </picture>
+                                <div class=".cont_profile">
+                                    <div class="name">
+                                        Nombre Apellido
+                                    </div>
+                                    <div class="profile">
+                                        Técnico de PC
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="desc_geek">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt eget semper libero. Enim magna cras ac accumsan non.
+                            </div>
+                            <div class="rate_geek">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="card_geek">
+                            <div class="id_geek">
+                                <picture>
+                                    <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                </picture>
+                                <div class=".cont_profile">
+                                    <div class="name">
+                                        Nombre Apellido
+                                    </div>
+                                    <div class="profile">
+                                        Técnico de PC
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="desc_geek">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper tincidunt eget semper libero. Enim magna cras ac accumsan non.
+                            </div>
+                            <div class="rate_geek">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cont_w100_btn">
+                        <a href="" class="btn_fill">Encuentra tu Geeks</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_nuestros_serv">
+            <div class="center">
+                <div class="cont_nuestros_serv">
+                    <div class="cont_tit2_s al_left">
+                        <h6>nuestros servicios</h6>
+                        <h3>Te ofrecemos servicios rápidos y de calidad</h3>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                    <div class="card_servicio">
+                        <picture>
+                            <img width="45" height="40" src="images/diseno/01-home/icono_ns.png" alt="">
+                        </picture>
+                        <h5>Reparación de PC</h5>
+                        <div class="desc_serv">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra sit vitae maecenas iaculis. Metus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_banner_empieza">
+            <div class="center">
+                <div class="cont_banner_empieza">
+                    <div class="desc_banner_e">
+                        <h3>¡Empieza ahora!</h3>
+                        <div class="txt_desc_e">
+                            ¿Tienes un problema con la computadora que te impide completar una tarea de trabajo urgente? ¿Estás harto de la lentitud de tu PC?
+                            <br>
+                            <br>
+                            Encuentra tu Geeks para resolver tu problema.
+                        </div>
+                        <a href="" class="btn_fill">Encuentra tu Geeks</a>
+                    </div>
+                    <picture>
+                        <img src="images/diseno/01-home/img_banner.png" width="352" height="430" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_testimonios">
+            <div class="center">
+                <div class="cont_testimonios">
+                    <div class="cont_tit2_s al_center">
+                        <h6>testimonios</h6>
+                        <h3>Los que dicen nuestros usuarios</h3>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper swiperTestimonios">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card_testimonio">
+                                    <picture>
+                                        <img src="images/diseno/01-home/foto_geek.png" width="88" height="88" alt="">
+                                    </picture>
+                                    <q>
+                                        “Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500”
+                                    </q>
+                                    
+                                    <div class="name_test">
+                                        Carlos Silva
+                                        <span class="lugar_test">Lima, Miraflores</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_blog">
+            <div class="center">
+                <div class="cont_tit2_s al_center">
+                    <h6>blog</h6>
+                    <h3>Entérate de nuestras últimas noticias</h3>
+                </div>
+                <div class="cont_blog">
+                    
+                    <a href="" class="card_b">
+                        <picture>
+                            <img width="347" height="178" src="images/diseno/01-home/b_img1.jpg" alt="">
+                        </picture>
+                        <div class="b_desc_txt">
+                            <div class="date_blog">
+                                <i class="fas fa-calendar-day"></i> 14 / 11 / 2020
+                            </div>
+                            <h4 class="tit_card_blog">
+                                Sed id odio a gravida auctor
+                            </h4>
+                            <div class="txt_card_blog">
+                                Amet, ipsum donec fermentum sit nibh. 
+                                Morbi vitae quisque eget ut integer massa. 
+                                Sed id odio a gravida auctor.
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="card_b">
+                        <picture>
+                            <img width="347" height="178" src="images/diseno/01-home/b_img1.jpg" alt="">
+                        </picture>
+                        <div class="b_desc_txt">
+                            <div class="date_blog">
+                                <i class="fas fa-calendar-day"></i> 14 / 11 / 2020
+                            </div>
+                            <h4 class="tit_card_blog">
+                                Sed id odio a gravida auctor
+                            </h4>
+                            <div class="txt_card_blog">
+                                Amet, ipsum donec fermentum sit nibh. 
+                                Morbi vitae quisque eget ut integer massa. 
+                                Sed id odio a gravida auctor.
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="" class="card_b">
+                        <picture>
+                            <img width="347" height="178" src="images/diseno/01-home/b_img1.jpg" alt="">
+                        </picture>
+                        <div class="b_desc_txt">
+                            <div class="date_blog">
+                                <i class="fas fa-calendar-day"></i> 14 / 11 / 2020
+                            </div>
+                            <h4 class="tit_card_blog">
+                                Sed id odio a gravida auctor
+                            </h4>
+                            <div class="txt_card_blog">
+                                Amet, ipsum donec fermentum sit nibh. 
+                                Morbi vitae quisque eget ut integer massa. 
+                                Sed id odio a gravida auctor.
+                            </div>
+                        </div>
+                    </a>
+                    
+
+                    
+
+                </div>
+
+                <div class="cont_w100_btn">
+                    <a href="" class="btn_fill">Leer más artículos</a>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+    
+    <footer>
+
+        <!-- SCRIPTS -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- --------------- -->
+
+        <div class="center">
+            <div class="cont_footer">
+                <div class="col1">
+                    <picture>
+                        <img src="images/diseno/logo_consulta_geeks_dark.svg" width="113" height="40" alt="">
+                    </picture>
+                    <summary>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus non nulla aliquet luctus. Sed ullamcorper ex sed ipsum vehicula, non vulputate mauris finibus.
+                    </summary>
+                </div>
+                <div class="col2">
+                    <div class="col_nav">
+                        <h6 id="link_f1">ConsultaGeeks</h6>
+                        <nav class="nav_consultaG">
+                            <ul>
+                                <li>
+                                    <a href="">¿Quiénes somos?</a>
+                                </li>
+                                <li>
+                                    <a href="">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="">Nuestros Geeks</a>
+                                </li>
+                                <li>
+                                    <a href="">Blog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col_nav">
+                        <h6 id="link_f2">Legal</h6>
+                        <nav class="nav_consultaG">
+                            <ul>
+                                <li>
+                                    <a href="">Políticas de privacidad</a>
+                                </li>
+                                <li>
+                                    <a href="">Términos y condiciones</a>
+                                </li>
+                                <li>
+                                    <a href="">Políticas de ConsultaGeeks</a>
+                                </li>
+                                <li>
+                                    <a href="">Cookies</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col_nav">
+                        <h6 id="link_f3">Contacto</h6>
+                        <div class="cont_footer_contacto">
+                            <ul>
+                                <li>
+                                    Teléfono:<a href="tel:(51) 963 852 765">(51) 963 852 765</a>
+                                </li>
+                                <li>
+                                    Email:<a href="mailto:info@consultageeks.com">info@consultageeks.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cont_footer_redes">
+                            <h6>Siguenos</h6>
+                            <div class="links_redes">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                Consulta Geeks © 2020 - Todos los derechos reservados.
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
